@@ -39,6 +39,7 @@ class Receiver {
 }
 
 class MenuOptions {
+    // takes in ActionCommand: MenuOptions has-a ActionCommand
     list : ActionCommand[];
     addCommand(cmd: ActionCommand): void{
         this.list.push(cmd)
